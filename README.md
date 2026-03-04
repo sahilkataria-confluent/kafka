@@ -6,9 +6,12 @@ sudo apt install nginx-core
 ```
 
 ## Update /etc/nginx/nginx.conf file based upon this template file:  [`nginx.conf`](nginx.conf)
-> Update Broker DNS entries in stream block
-> Update backend ip and port for each broker  
 
+1. Update Broker DNS entries in stream block
+
+2. Update backend ip and port for each broker  
+
+## Start Nginx Service
 ```bash
 sudo systemctl restart nginx
 ```
